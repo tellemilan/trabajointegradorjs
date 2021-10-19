@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="trabajojs.css">
+   
+    <style>
+    .container-fluid{
+      padding: 0%;
+    }
+    .col-md-4{
+      padding: 0%;
+    }
+
+    </style>
+   
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+
+    </style>
+
+</head>
+<body>
+  <header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center
+        justify-content-md-between">
+       <h5 class="h5i">Conf Bs As</h5> <img/>
+  
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-md-between mb-md-0" >
+          <li><a href="#" class="nav-link px-2 text-white">La conferencia</a></li>
+          <li><a href="#" class="nav-link px-2 text-secondary">Los oradores</a></li>
+          <li><a href="#" class="nav-link px-2 text-secondary">El lugar y La fecha</a></li>
+          <li><a href="#" class="nav-link px-2 text-secondary">Convierte en orador</a></li>
+          <li><a href="#" class="nav-link px-2 text-success">Comprar tickets</a></li>
+        </ul>     
+      </div>
+    </div>
+  </header>
+
+  <div class="container" id="cajita">
+    <div class="row ">
+      <div class="card border-primary mb-3 " id="tipo" style="max-width: 18rem; max-height: 45rem;">
+        <div class="card-body "  id="texto5">
+          <h5 class="card-title">Estudiante</h5>
+          <p class="card-text"> Tiene un descuento </p>
+          <h5 class="card-title">80%</h5>
+          <p class="card-text" id="texto4"> *presentar documentancion</p>
+        </div>
+      </div>
+      <div class="card border-success mb-3" id="tipo" style="max-width: 18rem;">
+        <div class="card-body "  id="texto5">
+          <h5 class="card-title">Trainee</h5>
+          <p class="card-text"> Tiene un descuento </p>
+          <h5 class="card-title">50%</h5>
+          <p class="card-text" id="texto4"> *presentar documentancion</p>
+         </div>
+      </div>
+      <div class="card border-warning mb-3" id="tipo" style="max-width: 18rem;">
+        <div class="card-body " id="texto5">
+          <h5 class="card-title">Junior</h5>
+          <p class="card-text"> Tiene un descuento </p>
+          <h5 class="card-title" >15%</h5>
+          <p class="card-text" id="texto4"> *presentar documentancion</p>
+         </div>
+      </div>
+    </div>
+
+  </div>
+  
+
+<P class="texto2">VENTA </P>
+   <h3 class="texto2">VALOR DE TICKET $200</h3>
+  <form class="formulario">
+   <div class="row">
+      <div class="form-label-group" id="N" >
+        <input type="text"  placeholder="Nombre" size="40" >
+      </div>
+      <div class="form-label-group">
+        <input type="text" placeholder="Apellido" size="40" >
+      </div>
+      <div class="form-label-group" id="c">
+        <input type="text" placeholder="Correo"  size="89"  > 
+       </div>
+       <div class="form-label-group col-4" id="k"  >
+         <fieldset>Cantidad</fieldset>
+        <input type="number" id="cantidad"  placeholder="Cantidad"  style="width: 110%; height: 60%;" >
+      </div>
+      <div class="form-label-group col-4" id="w"  >
+        <fieldset>Categoria</fieldset>
+         <select id="categoria"  style="width: 110%; height: 60%;"  >
+           <option value="1" >Estudiante</option>
+           <option value="2">Trainee</option>
+           <option value="3">Junior</option>
+          </select>
+
+      </div>
+        <div class="form-label-group" id="c">
+        <input type="text" id="total" placeholder="Toltal a Pagar:$"  size="89" style="background-color:#cbdcf3;"> 
+       </div>
+       <button class="btn btn-success col-4" type="button" id="N" >Borrar</button>
+       <button class="btn btn-success col-4" type="button" id="boton"  >Resumen</button>
+       <script src="trabajo.js"></script>  
+      </div>
+  </form>
+  <footer>
+      <div class="container-fluid" id="footer">
+        <div class="row justify-content-center">
+          <div class="col-1 " id="h" >
+           <br>
+            <p class="texto2">Preguntas Frecuentes</p>
+            <br>
+          </div>
+          <div class="col-1 " id="h" >
+            <br>
+             <p class="texto2">Contactanos</p>
+             <br>
+           </div>
+           <div class="col-1 " id="h" >
+            <br>
+             <p class="texto2">Prensa</p>
+             <br>
+           </div>
+           <div class="col-1 " id="h" >
+            <br>
+             <p class="texto2">Conferencias</p>
+             <br>
+           </div>
+           <div class="col-1 " id="h" >
+            <br>
+             <p class="texto2">Terminos y Condiciones</p>
+             <br>
+           </div>
+           <div class="col-1 " id="h" >
+            <br>
+             <p class="texto2">Privacidad</p>
+             <br>
+           </div>
+           <div class="col-1 " id="h" >
+            <br>
+             <p class="texto2">Estudiantes</p>
+             <br>
+           </div>
+        </div>
+
+      </div>
+  </footer>
+</body>
+</html>
